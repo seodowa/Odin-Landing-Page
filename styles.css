@@ -5,9 +5,20 @@ body {
     margin: 0px;
 }
 
-div {
+div:not(:first-of-type) {
     border-width: 2px;
     border-style: solid;
     border-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
