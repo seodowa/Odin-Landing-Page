@@ -152,10 +152,22 @@ a, a:visited, a:hover, a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
+    padding: 9% 21%;
+    color: #1f2937;
+}
+
+.quotes-container .quote {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px;
 }
 
 .quotes-container .quotee {
     text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
 }
 
 div .footer {
