@@ -1,8 +1,12 @@
+* {
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    font-family: "Roboto";
 }
 
 /* header style */
@@ -106,10 +110,41 @@ a, a:visited, a:hover, a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2% 0% 5% 0%;
 }
 
 .cards-container {
     display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    height: auto;
+    align-items: center;
+    padding: 8px;
+}
+.content-2 img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.content-2 h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 1%;
+}
+
+.content-2 p {
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin: 9px 0px;
 }
 
 div .footer {
