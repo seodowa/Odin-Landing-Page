@@ -147,6 +147,17 @@ a, a:visited, a:hover, a:active {
     margin: 9px 0px;
 }
 
+/* content-3 */
+.content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-container .quotee {
+    text-align: right;
+}
+
 div .footer {
     flex: 1;
 }
