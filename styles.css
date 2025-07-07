@@ -97,6 +97,7 @@ a, a:visited, a:hover, a:active {
     background-color: #3882f6;
     border-color: #3882f6;
     border-radius: 8px;
+    border-style: solid;
     color: #e5e7eb;
     font-family: inherit;
     font-weight: bold;
